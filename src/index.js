@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+// import App from './App';
+// import Onreact from './Onreact';
+import Login from './Login';
+//import Header from './Header';
+import Home from './Home';
+import Fblogin from './Fblogin';
+ import reportWebVitals from './reportWebVitals';
+ 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Fblogin />
   </React.StrictMode>,
   document.getElementById('root')
 );
