@@ -3,15 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 // import Onreact from './Onreact';
-import Login from './Login';
+// import Login from './Login';
 //import Header from './Header';
-import Home from './Home';
-import Fblogin from './Fblogin';
+//import Home from './Home';
+//import Fblogin from './Fblogin';
+//import Cards from './Cards';
+//import Products from './LoadData/Products';
+//import Transaction from './transactiondashboard/Transactions';
+// import Transactionsaving from './transactiondashboard/Transactionsaving';
+//import Transactions from './components/Transaction'
+//import Data from './components/Data'
+//import Transactiondata from './components/Transactiondata';
+import Welcome from './classwork/Welcome';
+
+//import Facebook from './facebookComponent/Facebook';
  import reportWebVitals from './reportWebVitals';
  
 ReactDOM.render(
   <React.StrictMode>
-    <Fblogin />
+    <Welcome />
   </React.StrictMode>,
   document.getElementById('root')
 );
